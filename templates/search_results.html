@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search</title>
+</head>
+<body>
+ <h2>cities</h2>
+          {% for city in city_list %}
+           <ul> {{ city.name }},
+              {{ city.state}} State</ul>
+          {% endfor %}
+</body>
+</html>
